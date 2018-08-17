@@ -1,0 +1,9 @@
+[submodule "ucsma-kernel_module"]
+	path = ucsma-kernel_module
+	url = https://github.com/UCSMA-Project/ucsma-kernel_module.git
+[submodule "OpenWRT-14.07-JS9331"]
+	path = OpenWRT-14.07-JS9331
+	url = https://github.com/UCSMA-Project/OpenWRT-14.07-JS9331.git
+[submodule "packetspammer"]
+	path = packetspammer
+	url = https://github.com/UCSMA-Project/packetspammer.git
