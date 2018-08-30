@@ -137,7 +137,3 @@ cp "$BUILD_DIR/ath/ath9k/"*.ko "result/modules"
 
 mkdir "result/utilities"
 cp "$BUILD_DIR/packetspammer/packetspammer" "result/utilities"
-
-
-# todo: add condition checking for failed build steps
-# todo: consider whether raspi stuff should be included
