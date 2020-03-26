@@ -30,7 +30,7 @@ Use `scp` to copy `packetspammer` and `unlock.ko` to each of the AR9331 boards. 
 1. Copy the relevant files to the AR9331 boards.
 2. Install ath9k module with command `insmod ath9k`. (default model) Uninstall ath9k module with command `rmmod ath9k`.
 3. Set noise floor and txpower by running `init.sh` script sometimes the noise floor need to be set angin manully after running `init.sh` script.
-| | noise floor | txpower |
+| parameters | noise floor | txpower |
 |-|-------------|---------|
 |left and/or right | -56 | 100 |
 | mid | -95 | 2000 |
