@@ -81,5 +81,5 @@ It's `OpenWRT-14.07-JS9331/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71
 #### Can't find the compiled kernel modules
 It's `OpenWRT-14.07-JS9331/staging_dir/target-mips_34kc_uClibc-0.9.33.2/root-ar71xx/lib/modules/3.10.49`
 
-#### I wan't to just compile the network driver
-Within the `OpenWRT` directory, run `make package/compile`
+#### I just want compile the network driver
+Within the `OpenWRT` directory, run `make package/compile`. Then the result can be found in the directory above.
