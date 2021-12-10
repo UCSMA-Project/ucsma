@@ -10,6 +10,8 @@ This repository contains the necessary submodules and scripts to build the firmw
 Simply running build.sh will proceed with building all of the components necessary for the experiment.
 Build products will be located in the result folder after the build process completes.
 
+Note that the script builds OpenWRT version 14, which is out-of-date by the time anyone is reading this. The build would likely to fail on `make world`, i.e., building the OpenWRT image, due to many of its dependencies being too new on your system if you are running a newer Linux distro such as Ubuntu 20.04. You can try to downgrade the dependencies but another way to try is to build the image with Ubuntu 14.04 LTS which will install all the old pacakges. 
+
 ## AR9331 SoC Login/Setup
 - If you have flashed the chip, make sure to first disable the firewall (otherwise `ssh` will not work): `/etc/init.d/firewall disable`
 - To `ssh` into the chip, run `ssh root@<ip_addr>` with password `root` (scp works the same way)
